@@ -4,7 +4,7 @@ const app = express();
 const port = 8080; // Puedes cambiar el puerto según tus necesidades
 
 // Importar el array de preguntas desde preguntas.js
-const preguntas = require('./question');
+const preguntas = require('../question');
 
 
 app.use(express.json()); 
