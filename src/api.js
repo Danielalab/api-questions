@@ -25,6 +25,6 @@ app.listen(port, () => {
   console.log(`La aplicación está escuchando en http://localhost:${port}`);
 });
 
-app.use("/.netlify/functions/index", router);
+app.use("/.netlify/functions/api", router);
 
 module.exports.handler = serverless(app);
